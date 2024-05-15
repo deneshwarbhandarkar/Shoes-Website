@@ -1,0 +1,50 @@
+.main-container {
+    height: calc(100vh-72px);
+    display: flex;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.main-container h1 {
+    font-weight: 800;
+    font-size: 105px;
+    line-height: 102px;
+}
+
+.main-container p {
+    font-weight: 600;
+    color: #2E2E2E;
+    max-width: 400px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.main-btn {
+    display: flex;
+    gap: 40px;
+}
+
+.main-btn button {
+    font-size: 24px;
+}
+
+.category-btn {
+    background: transparent;
+    color: #2E2E2E;
+    border: 1px solid #2E2E2E;
+}
+
+.shopping p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.shopping-icons {
+    display: flex;
+    gap: 16px;
+}
